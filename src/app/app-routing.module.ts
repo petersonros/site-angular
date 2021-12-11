@@ -1,8 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CarouselComponent } from './views/carousel/carousel.component';
+import { ContatoComponent } from './views/contato/contato.component';
+import { EventosComponent } from './views/eventos/eventos.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { HeaderComponent } from './views/header/header.component';
 import { HomeComponent } from './views/home/home.component';
+import { MenuComponent } from './views/menu/menu.component';
+import { PortifolioComponent } from './views/portifolio/portifolio.component';
+import { ProdutosComponent } from './views/produtos/produtos.component';
 import { SobreComponent } from './views/sobre/sobre.component';
 
 const routes: Routes = [
@@ -11,7 +17,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: '',
+    path: 'header',
     component: HeaderComponent
   },
   {
@@ -19,9 +25,34 @@ const routes: Routes = [
     component: SobreComponent
   },
   {
-    path: '',
+    path: 'footer',
     component: FooterComponent
+  },
+  {
+    path: 'carousel',
+    component: CarouselComponent
+  },
+  {
+    path: 'contato',
+    component: ContatoComponent
+  },
+  {
+    path: 'eventos',
+    component: EventosComponent
+  },
+  {
+    path: 'menu',
+    component: MenuComponent
+  },
+  {
+    path: 'portifolio',
+    component: PortifolioComponent
+  },
+  {
+    path: 'produtos',
+    component: ProdutosComponent
   }
+
 ];
 
 @NgModule({

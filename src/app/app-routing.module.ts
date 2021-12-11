@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'header',
+    path: '',
     component: HeaderComponent
   },
   {
@@ -19,7 +19,7 @@ const routes: Routes = [
     component: SobreComponent
   },
   {
-    path: 'footer',
+    path: '',
     component: FooterComponent
   }
 ];

@@ -8,6 +8,9 @@ import { CarouselComponent } from './views/carousel/carousel.component';
 import { HomeComponent } from './views/home/home.component';
 import { SobreComponent } from './views/sobre/sobre.component';
 import { ContatoComponent } from './views/contato/contato.component';
+import { ProdutosComponent } from './views/produtos/produtos.component';
+import { PortifolioComponent } from './views/portifolio/portifolio.component';
+import { EventosComponent } from './views/eventos/eventos.component';
 import { FooterComponent } from './views/footer/footer.component';
 
 // imports
@@ -21,6 +24,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 
 
+
 // decaration, component and imports
 @NgModule({
   declarations: [
@@ -32,6 +36,9 @@ import { MatButtonModule } from '@angular/material/button';
     FooterComponent,
     MenuComponent,
     CarouselComponent,
+    ProdutosComponent,
+    PortifolioComponent,
+    EventosComponent,
   ],
   imports: [
     BrowserModule,

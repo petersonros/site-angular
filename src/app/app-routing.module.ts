@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
+// components
 import { CarouselComponent } from './views/carousel/carousel.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { EventosComponent } from './views/eventos/eventos.component';
@@ -13,7 +15,7 @@ import { SobreComponent } from './views/sobre/sobre.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home-component',
     component: HomeComponent
   },
   {
@@ -21,7 +23,7 @@ const routes: Routes = [
     component: HeaderComponent
   },
   {
-    path: 'sobre',
+    path: 'sobre-component',
     component: SobreComponent
   },
   {
@@ -33,11 +35,11 @@ const routes: Routes = [
     component: CarouselComponent
   },
   {
-    path: 'contato',
+    path: 'contato-component',
     component: ContatoComponent
   },
   {
-    path: 'eventos',
+    path: 'eventos-component',
     component: EventosComponent
   },
   {
@@ -45,11 +47,11 @@ const routes: Routes = [
     component: MenuComponent
   },
   {
-    path: 'portifolio',
+    path: 'portfolio-component',
     component: PortifolioComponent
   },
   {
-    path: 'produtos',
+    path: 'produtos-component',
     component: ProdutosComponent
   }
 

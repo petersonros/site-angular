@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 // components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './views/header/header.component';
+import { MenuComponent } from './views/menu/menu.component';
+import { CarouselComponent } from './views/carousel/carousel.component';
 import { HomeComponent } from './views/home/home.component';
 import { SobreComponent } from './views/sobre/sobre.component';
 import { ContatoComponent } from './views/contato/contato.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 // imports
 import { BrowserModule } from '@angular/platform-browser';
@@ -16,7 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { FooterComponent } from './views/footer/footer.component';
+
 
 // decaration, component and imports
 @NgModule({
@@ -27,6 +30,8 @@ import { FooterComponent } from './views/footer/footer.component';
     SobreComponent,
     ContatoComponent,
     FooterComponent,
+    MenuComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

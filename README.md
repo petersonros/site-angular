@@ -1,6 +1,6 @@
 # Site Games
 Atividade do Curso Front-End Senai.
-O mesmo site construido com HTML e Bootstrap foi convertido para o Angular.
+O mesmo site construido com Bootstrap foi reconstruido com Angular.
 
 # Angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
